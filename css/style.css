@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.prodotto {
+    display: inline-block;
+    position: relative;
+}
+
+.prodotto img {
+    width: 200px;
+    height: 250px;
+    object-fit: contain;
+    background-color: lightgrey;
+}
+
+.sconto {
+    background-color: green;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.cuore {
+    color: red;
+    font-size: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: none;
+}
+
+.prodotto:hover .cuore {
+    display:block;
+}
+
+.container {
+    width: 700px;
+    margin: 0;
+    text-align: center;
+}
+
+
+.prodottodue {
+    position: relative;
+    display: inline-block;
+}
+
+.prodottodue img {
+    width: 200px;
+    height: 250px;
+    background-color: lightgrey;
+    object-fit: contain;
+}
+
+.scontodue {
+    background-color: orange;
+    position:absolute;
+    right: 0;
+    top: 0;
+}
+
+.cuoredue {
+    color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 30px;
+    display: none;
+}
+
+.prodotto:hover .cuoredues {
+    display: block;
+}
